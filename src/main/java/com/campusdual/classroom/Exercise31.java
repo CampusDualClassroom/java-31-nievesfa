@@ -9,7 +9,7 @@ public class Exercise31 {
     public static void main(String[] args) {
 
         BufferedReader br = null;
-
+        
 
         try {
             br = new BufferedReader(new FileReader(new File("/Users/nievesfacorro/Documents/CAMPUSDUAL/FULL_STACK/PROJECTS/BACKEND/Classroom/Ejercicio_31_nievesfa/src/main/resources/lorem.txt")));
