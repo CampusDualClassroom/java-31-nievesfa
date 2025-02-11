@@ -12,7 +12,7 @@ public class Exercise31 {
 
 
         try {
-            br = new BufferedReader(new FileReader(new File("/Users/nievesfacorro/Documents/CAMPUSDUAL/FULL_STACK/PROJECTS/BACKEND/Classroom/Ejercicio_31_nievesfa/src/main/resources/lorem.txt")));
+            br = new BufferedReader(new FileReader(new File("src/main/resources/lorem.txt")));
 
             String linea;
             while ((linea = br.readLine()) != null) {
