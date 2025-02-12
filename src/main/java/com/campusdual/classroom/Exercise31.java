@@ -20,14 +20,6 @@ public class Exercise31 {
             }
         } catch (Exception ex) {
             ex.printStackTrace();
-        } finally {
-            try {
-                if (br != null) {
-                    br.close();
-                }
-            } catch (Exception ex2) {
-                ex2.printStackTrace();
-            }
+
         }
-    }
-}
+    }}
